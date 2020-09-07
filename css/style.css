@@ -241,6 +241,7 @@ ul {
 #work {
   padding: 1rem 5rem;
   background: linear-gradient(45deg, var(--white-color), var(--bg-color));
+  margin: 0 auto;
 }
 
 .projects {

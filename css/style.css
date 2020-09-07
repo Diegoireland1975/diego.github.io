@@ -155,8 +155,8 @@ ul {
 /* Main Image */
 .header-home {
   background: url(../img/Dublin-dock.jpg) no-repeat center center/cover;
-  background-color: var(--bg-color);
-  background-blend-mode: luminosity;
+  background-color: var(--blue-color);
+  background-blend-mode: soft-light;
   color: var(--white-color);
   height: 100vh;
 }

@@ -114,7 +114,12 @@ ul {
 
 .navbar .nav {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+}
+
+.navbar li {
+  margin-bottom: 1.5rem;
 }
 
 #logo {
@@ -287,14 +292,24 @@ ul {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
   backface-visibility: hidden;
   /* rotating the back face of the card */
   -ms-transform: rotateY(180deg); /* IE 9 */
   -webkit-transform: rotateY(180deg); /* Safari */
   transform: rotateY(180deg);
-  background: linear-gradient(to left, var(--blue-color), var(--white-color));
+  background: linear-gradient(
+    45deg,
+    var(--light-gray-color),
+    var(--white-color)
+  );
+}
+.back p {
+  color: var(--light-bg-color);
+  font-weight: 400;
+  justify-self: center;
+  padding: 0.5rem;
 }
 
 /* Footer */

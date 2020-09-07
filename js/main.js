@@ -67,19 +67,9 @@ function init() {
 // ##############///////
 // Flip card on click///
 // ##############///////
-
-// four loop///
-/////////////
 var clickMe = document.querySelectorAll(".card");
-for (i = 0; i < clickMe.length; i++) {
-  clickMe[i].addEventListener("click", function (event) {
-    clickMe.classList.toggle(".is-flipped");
+clickMe.forEach((card) => {
+  card.addEventListener("click", function () {
+    card.classList.toggle("is-flipped");
   });
-}
-
-// jquery////
-///////////
-// var clickMe = document.querySelectorAll(".card");
-// $(".card").click(function (event) {
-//   clickMe.classList.toggle(".is-flipped");
-// });
+});

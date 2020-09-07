@@ -24,6 +24,10 @@
   .navbar li {
     font-size: 1.1rem;
   }
+  .header-home {
+    background-color: var(--bg-color);
+    background-blend-mode: multiply;
+  }
 
   .main-img {
     padding: 0 3rem;

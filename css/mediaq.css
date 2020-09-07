@@ -1,0 +1,95 @@
+/* mediaqueries */
+@media (min-width: 768px) {
+  .navbar .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar ul {
+    margin-left: auto;
+  }
+
+  #logo {
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+  }
+
+  .navbar li {
+    font-size: 1.1rem;
+  }
+
+  .main-img {
+    padding: 0 3rem;
+  }
+
+  .main-img h1 {
+    font-size: 3rem;
+  }
+
+  .main-img h2 {
+    font-size: 2rem;
+  }
+
+  /* About */
+  #about .container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: start;
+    gap: 3rem;
+    padding: 0 3rem;
+  }
+
+  .me {
+    margin: 0;
+  }
+
+  .resume {
+    margin: 0;
+  }
+
+  /* work projects */
+  #work {
+    padding: 3rem;
+  }
+
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  /* footer */
+  #main-footer .container {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #contact {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-img h1 {
+    font-size: 5rem;
+  }
+
+  .main-img h2 {
+    font-size: 2.5rem;
+  }
+
+  #about .container {
+    padding: 0 6rem;
+  }
+
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .arrow {
+    padding: 1rem;
+  }
+}

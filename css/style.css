@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap");
+
+:root {
+  --bg-color: rgb(66, 66, 238);
+  --with-container: 1200px;
+  --dark-color: #000;
+  --white-color: #fff;
+  --light-gray-color: #777;
+  --bright-color: rgb(209, 209, 52);
+  --blue-color: rgb(14, 14, 90);
+}
+
+/* Basic style*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.3;
+  color: var(--dark-color);
+}
+
+.container {
+  max-width: var(--with-container);
+  margin: 0 auto;
+  padding: 0 1rem;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+/* utility classes */
+.text-center {
+  text-align: center;
+}
+
+.section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 2rem 0;
+  color: var(--blue-color);
+}
+
+.highlight {
+  font-weight: 700;
+  color: var(--blue-color);
+}
+
+.line {
+  width: 100%;
+  border: 2px solid var(--white-color);
+  display: block;
+  margin: 1rem 0;
+}
+
+/* Button styles */
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: 5px;
+  margin: 0 0.3rem 0.3rem 0;
+}
+
+.btn:hover {
+  background: var(--bright-color);
+}
+
+.btn-light {
+  background: var(--bg-color);
+  color: var(--dark-color);
+}
+
+.btn-dark {
+  background: var(--dark-color);
+  color: var(--white-color);
+}
+
+/* navbar */
+
+.navbar .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  padding: 1rem;
+}
+
+.navbar ul {
+  text-transform: uppercase;
+}
+
+.navbar .nav {
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar a {
+  margin-left: 2rem;
+  color: #ccc;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid transparent;
+  transition: color, border-color 0.3s ease-out;
+}
+
+.navbar a:hover {
+  color: var(--white-color);
+  border-color: var(--bright-color);
+}
+
+/* HEADER */
+
+.header-home h1,
+.header-home h2 {
+  font-weight: 200;
+  margin: 0.4rem;
+}
+
+.header-home h1 {
+  font-size: 2rem;
+}
+
+/* Main Image */
+.header-home {
+  background: url(../img/Dublin-dock.jpg) no-repeat center center/cover;
+  background-color: var(--bg-color);
+  background-blend-mode: multiply;
+  color: var(--white-color);
+  height: 100vh;
+}
+
+.header-home h2 {
+  font-size: 1.5rem;
+  color: #aaa;
+}
+
+.main-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 0 1rem;
+}
+
+/* Cursor */
+.txt-type > span {
+  position: relative;
+}
+
+.txt-type > span::after {
+  content: "";
+  right: -0.5rem;
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  border-right: 0.2rem solid var(--light-gray-color);
+  animation: blink 0.5s 1s infinite ease;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* About */
+#about {
+  padding: 2rem 3rem;
+  background: linear-gradient(45deg, var(--bg-color), var(--white-color));
+  color: var(--dark-color);
+}
+
+#about .container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.about-text {
+  margin: 1rem 0;
+  font-weight: 100;
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: 1px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.resume {
+  font-weight: 700;
+  background: var(--white-color);
+  margin-top: 1rem;
+  /* border-radius: 5px;
+  padding: 0.5rem 1rem;
+  display: inline-block; */
+}
+
+.me {
+  margin: 1rem 0;
+}
+
+/* work projects */
+#work {
+  padding: 1rem 5rem;
+  background: linear-gradient(45deg, var(--white-color), var(--bg-color));
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.7rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.projects img {
+  border: 3px var(--dark-color) solid;
+  transition: opacity, border-color 0.3s ease-in-out;
+  margin-bottom: 0.5rem;
+}
+
+.projects img:hover {
+  opacity: 0.5;
+  border-color: var(--light-gray-color);
+}
+
+/* Cards */
+.card-wrapper {
+  perspective: 600px;
+  width: 321px;
+  height: 230px;
+}
+
+.card {
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: transform 1.5s ease;
+  transform-style: preserve-3d;
+}
+
+.card.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.front {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+}
+
+.back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  backface-visibility: hidden;
+  /* rotating the back face of the card */
+  -ms-transform: rotateY(180deg); /* IE 9 */
+  -webkit-transform: rotateY(180deg); /* Safari */
+  transform: rotateY(180deg);
+  background: linear-gradient(to left, var(--blue-color), var(--white-color));
+}
+
+/* Footer */
+#main-footer .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-footer {
+  padding: 1rem 0;
+  align-items: center;
+  background: linear-gradient(to right, var(--dark-color), var(--bg-color));
+  color: var(--white-color);
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.footer-nav a {
+  color: var(--light-gray-color);
+  margin-left: 1rem;
+  transition: color 0.5s ease-out;
+}
+
+.footer-nav a:hover {
+  color: var(--white-color);
+}
+
+#contact {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.email {
+  margin-left: 0.5rem;
+  color: var(--bright-color);
+  transition: color 0.5s ease-out;
+}
+
+.email:hover {
+  color: var(--light-gray-color);
+}
+
+/* Arrow */
+
+.arrow {
+  border: solid var(--white-color);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}

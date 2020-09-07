@@ -151,6 +151,10 @@ ul {
 .header-home h1 {
   font-size: 1.7rem;
 }
+.header-home h2 {
+  font-size: 1.3rem;
+  margin-bottom: 3rem;
+}
 
 /* Main Image */
 .header-home {

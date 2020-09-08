@@ -241,7 +241,7 @@ ul {
 }
 .me:hover,
 .me:active {
-  transform: scale(1.4);
+  transform: scale(1.7);
   filter: brightness(85%);
 }
 

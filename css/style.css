@@ -228,13 +228,21 @@ ul {
   font-weight: 700;
   background: var(--white-color);
   margin-top: 1rem;
-  /* border-radius: 5px;
-  padding: 0.5rem 1rem;
-  display: inline-block; */
+}
+
+.img-container {
+  overflow: hidden;
 }
 
 .me {
   margin: 1rem 0;
+  transition: scale, brightness, 0.5s ease-in-out;
+  cursor: pointer;
+}
+.me:hover,
+.me:active {
+  transform: scale(1.4);
+  filter: brightness(85%);
 }
 
 /* work projects */
@@ -254,7 +262,7 @@ ul {
 
 .projects img {
   border: 3px var(--dark-color) solid;
-  transition: opacity, border-color 0.3s ease-in-out;
+  transition: opacity, border-color, 0.3s ease-in-out;
   margin-bottom: 0.5rem;
 }
 
@@ -295,6 +303,7 @@ ul {
   position: absolute;
   height: 100%;
   width: 100%;
+  padding: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -310,11 +319,18 @@ ul {
     var(--white-color)
   );
 }
+
+.back h3 {
+  margin-bottom: auto;
+}
+
 .back p {
   color: var(--light-bg-color);
+  font-size: 0.9rem;
   font-weight: 400;
   justify-self: center;
   padding: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 /* Footer */

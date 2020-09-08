@@ -119,7 +119,7 @@ ul {
 }
 
 .navbar li {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.3rem;
 }
 
 #logo {
@@ -130,7 +130,7 @@ ul {
 .navbar a {
   margin-left: 2rem;
   color: #ccc;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.3rem;
   border-bottom: 3px solid transparent;
   transition: color, border-color 0.3s ease-out;
 }

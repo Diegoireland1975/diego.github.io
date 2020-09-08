@@ -357,28 +357,12 @@ ul {
 
 .footer-nav a {
   color: var(--light-gray-color);
-  margin-left: 1rem;
+  margin-left: 1.5rem;
   transition: color 0.5s ease-out;
 }
 
 .footer-nav a:hover {
   color: var(--white-color);
-}
-
-#contact {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 0.5rem;
-}
-
-.email {
-  margin-left: 0.5rem;
-  color: var(--bright-color);
-  transition: color 0.5s ease-out;
-}
-
-.email:hover {
-  color: var(--light-gray-color);
 }
 
 /* Arrow */

@@ -19,15 +19,12 @@
     margin-right: auto;
     width: 100px;
     height: 100px;
+    margin-bottom: 0;
   }
 
   .navbar li {
     font-size: 1.1rem;
     margin-bottom: 0;
-  }
-  .header-home {
-    background-color: var(--bg-color);
-    background-blend-mode: multiply;
   }
 
   .main-img {

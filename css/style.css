@@ -120,12 +120,13 @@ li {
 }
 
 .navbar li {
-  margin-bottom: 1.3rem;
+  margin-bottom: 1.5rem;
 }
 
 #logo {
   width: 50px;
   height: 50px;
+  margin-bottom: 0.5rem;
 }
 
 .navbar a {
@@ -160,8 +161,8 @@ li {
 /* Main Image */
 .header-home {
   background: url(../img/Dublin-dock.jpg) no-repeat center center/cover;
-  background-color: var(--blue-color);
-  background-blend-mode: lighten;
+  background-color: rgba(14, 14, 90, 0.6);
+  background-blend-mode: overlay;
   color: var(--white-color);
   height: 100vh;
 }

@@ -281,7 +281,7 @@ li {
 
 .bar span {
   height: 0.5rem;
-  background: var(--bg-color);
+  background: var(--bright-color);
   display: flex;
 }
 

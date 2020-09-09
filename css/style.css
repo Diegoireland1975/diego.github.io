@@ -44,7 +44,8 @@ img {
   max-width: 100%;
 }
 
-ul {
+ul,
+li {
   list-style: none;
 }
 
@@ -241,8 +242,131 @@ ul {
 }
 .me:hover,
 .me:active {
-  transform: scale(1.7);
+  transform: scale(1.3);
   filter: brightness(85%);
+}
+
+/* bar skills */
+
+.skills {
+  margin: 1rem 0;
+  width: 100%;
+  color: var(--white-color);
+}
+
+.skills li {
+  margin: 1rem 0;
+}
+
+.skills img {
+  padding-bottom: 0.5rem;
+  width: 2rem;
+  margin: 0 auto;
+}
+
+.bar {
+  background: var(--blue-color);
+  display: block;
+  height: 0.5rem;
+  border: 1px solid rgba (0, 0, 0, 0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px var(--bg-color);
+}
+
+.heading-skills {
+  margin-bottom: 0.5rem;
+  color: var(--blue-color);
+}
+
+.bar span {
+  height: 0.5rem;
+  background: var(--bg-color);
+  display: flex;
+}
+
+.html {
+  width: 90%;
+  animation: html 2s ease-in;
+}
+
+.css {
+  width: 70%;
+  animation: css 2s ease-in;
+}
+
+.jquery {
+  width: 50%;
+  animation: jquery 2s ease-in;
+}
+
+.javascript {
+  width: 40%;
+  animation: javascript 2s ease-in;
+}
+
+.responsive-design {
+  width: 90%;
+  animation: responsive 2s ease-in;
+}
+
+.git {
+  width: 60%;
+  animation: git 2s ease-in;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes jquery {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 40%;
+  }
+}
+
+@keyframes responsive {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes git {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
 }
 
 /* work projects */

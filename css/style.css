@@ -268,7 +268,7 @@ li {
   background: var(--blue-color);
   display: block;
   height: 0.5rem;
-  border: 1px solid rgba (0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 3px;
   overflow: hidden;
   box-shadow: 0 0 10px var(--bg-color);

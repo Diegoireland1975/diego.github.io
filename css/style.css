@@ -193,7 +193,7 @@ li {
   width: 1px;
   height: 100%;
   position: absolute;
-  border-right: 0.2rem solid var(--light-gray-color);
+  border-right: 0.2rem solid var(--white-color);
   animation: blink 0.5s 1s infinite ease;
 }
 

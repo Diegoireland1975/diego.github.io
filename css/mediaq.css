@@ -97,8 +97,8 @@
   }
 
   .skills {
-    grid-column: 2/4;
-    max-width: 500px;
+    grid-column: 1/4;
+    max-width: 600px;
     margin: 0 auto;
   }
 

@@ -261,9 +261,14 @@ li {
 }
 
 .skills img {
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
   width: 2rem;
   margin: 0 auto;
+}
+
+.heading-skills {
+  margin-bottom: 1.5rem;
+  color: var(--blue-color);
 }
 
 .bar {
@@ -274,11 +279,6 @@ li {
   border-radius: 3px;
   overflow: hidden;
   box-shadow: 0 0 10px var(--bg-color);
-}
-
-.heading-skills {
-  margin-bottom: 0.5rem;
-  color: var(--blue-color);
 }
 
 .bar span {

@@ -55,6 +55,11 @@
     margin: 0;
   }
 
+  .heading-skills {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
   /* work projects */
   #work {
     padding: 3rem;

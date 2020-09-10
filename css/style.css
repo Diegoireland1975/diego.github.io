@@ -153,6 +153,7 @@ li {
 .header-home h1 {
   font-size: 1.7rem;
 }
+
 .header-home h2 {
   font-size: 1.3rem;
   margin-bottom: 4rem;
@@ -307,7 +308,7 @@ li {
 }
 
 .responsive-design {
-  width: 90%;
+  width: 80%;
   animation: responsive 2s ease-in;
 }
 
@@ -357,7 +358,7 @@ li {
     width: 0%;
   }
   100% {
-    width: 90%;
+    width: 80%;
   }
 }
 
@@ -480,14 +481,16 @@ li {
   margin: 1rem 0;
 }
 
-.footer-nav a {
-  color: var(--light-gray-color);
+.footer-nav img {
+  width: 2rem;
+  transition: scale, opacity, 0.5s ease-in;
   margin-left: 1.5rem;
-  transition: color 0.5s ease-out;
 }
 
-.footer-nav a:hover {
-  color: var(--white-color);
+.footer-nav img:hover,
+.footer-nav img:active {
+  transform: scale(1.2);
+  opacity: 0.7;
 }
 
 /* Arrow */

@@ -75,9 +75,6 @@
   .footer-nav {
     margin: 0;
   }
-  .footer-nav i {
-    font-size: 2.5rem;
-  }
 }
 
 @media (min-width: 1024px) {

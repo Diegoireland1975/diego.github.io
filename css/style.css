@@ -80,10 +80,12 @@ li {
   border: 0;
   border-radius: 5px;
   margin: 0 0.3rem 0.3rem 0;
+  transition: background-color, color, 0.5s ease-in-out;
 }
 
 .btn:hover {
   background: var(--bright-color);
+  color: var(--dark-color);
 }
 
 .btn-light {
@@ -235,6 +237,10 @@ li {
   margin: 2rem 0;
 }
 
+.resume:hover {
+  background: var(--bright-color);
+  color: var(--bg-color);
+}
 .img-container {
   overflow: hidden;
 }
@@ -244,6 +250,7 @@ li {
   transition: scale, brightness, 0.5s ease-in-out;
   cursor: pointer;
 }
+
 .me:hover,
 .me:active {
   transform: scale(1.2);

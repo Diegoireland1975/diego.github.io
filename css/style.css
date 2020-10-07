@@ -241,6 +241,7 @@ li {
   background: var(--bright-color);
   color: var(--bg-color);
 }
+
 .img-container {
   overflow: hidden;
 }

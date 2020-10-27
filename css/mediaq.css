@@ -6,6 +6,10 @@
     align-items: center;
   }
 
+  .navbar a {
+    margin-left: 2rem;
+  }
+
   .navbar ul {
     margin-left: auto;
   }
@@ -108,7 +112,7 @@
 
   .projects {
     grid-template-columns: repeat(3, 1fr);
-    max-width: 900px;
+    min-width: 900px;
     margin: 0 auto;
   }
 

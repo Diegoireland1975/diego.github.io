@@ -104,7 +104,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .navbar {
@@ -119,6 +119,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
   margin-top: 3rem;
 }
 
@@ -133,7 +134,6 @@ li {
 }
 
 .navbar a {
-  margin-left: 2rem;
   color: #ccc;
   padding-bottom: 0.3rem;
   border-bottom: 3px solid transparent;
@@ -174,7 +174,7 @@ li {
 
 .header-home h2 {
   font-size: 1.5rem;
-  color: #aaa;
+  color: var(--white-color);
 }
 
 .main-img {
@@ -391,21 +391,20 @@ li {
 .projects {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1.7rem;
+  gap: 1.8rem;
   justify-content: center;
   margin: 2rem 0;
 }
 
 .projects img {
   border: 3px var(--dark-color) solid;
-  transition: opacity, border-color, scale, 0.3s ease-in-out;
+  transition: brightness, scale, 0.3s ease-in-out;
   margin-bottom: 0.5rem;
 }
 
 .projects img:hover {
-  opacity: 0.5;
-  border-color: var(--light-gray-color);
-  transform: scale(0.98);
+  transform: scale(0.99);
+  filter: brightness(75%);
 }
 
 /* Cards */
@@ -413,6 +412,7 @@ li {
   perspective: 600px;
   width: 321px;
   height: 230px;
+  margin: 0 auto;
 }
 
 .card {

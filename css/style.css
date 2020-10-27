@@ -359,7 +359,7 @@ li {
     width: 0%;
   }
   100% {
-    width: 40%;
+    width: 50%;
   }
 }
 
@@ -398,13 +398,14 @@ li {
 
 .projects img {
   border: 3px var(--dark-color) solid;
-  transition: opacity, border-color, 0.3s ease-in-out;
+  transition: opacity, border-color, scale, 0.3s ease-in-out;
   margin-bottom: 0.5rem;
 }
 
 .projects img:hover {
   opacity: 0.5;
   border-color: var(--light-gray-color);
+  transform: scale(0.98);
 }
 
 /* Cards */

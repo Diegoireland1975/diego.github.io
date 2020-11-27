@@ -307,18 +307,23 @@ li {
   animation: css 2s ease-in;
 }
 
+.sass {
+  width: 60%;
+  animation: sass 2s ease-in;
+}
+
 .jquery {
   width: 50%;
   animation: jquery 2s ease-in;
 }
 
 .javascript {
-  width: 40%;
+  width: 50%;
   animation: javascript 2s ease-in;
 }
 
 .responsive-design {
-  width: 80%;
+  width: 90%;
   animation: responsive 2s ease-in;
 }
 
@@ -345,6 +350,15 @@ li {
   }
 }
 
+@keyframes sass {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
 @keyframes jquery {
   0% {
     width: 0%;
@@ -368,7 +382,7 @@ li {
     width: 0%;
   }
   100% {
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -450,11 +464,12 @@ li {
   -ms-transform: rotateY(180deg); /* IE 9 */
   -webkit-transform: rotateY(180deg); /* Safari */
   transform: rotateY(180deg);
-  background: linear-gradient(
+  /* background: linear-gradient(
     45deg,
     var(--light-gray-color),
     var(--white-color)
-  );
+  ); */
+  background: linear-gradient(45deg, lightblue, var(--white-color));
 }
 
 .back h3 {

@@ -60,6 +60,10 @@
     margin: 0;
   }
 
+  .skills img {
+    width: 2.5rem;
+  }
+
   .heading-skills {
     font-size: 2rem;
     margin-bottom: 2rem;

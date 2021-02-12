@@ -71,7 +71,7 @@ function init() {
 // ##############///////
 // Flip card on click///
 // ##############///////
-var clickMe = document.querySelectorAll(".card");
+let clickMe = document.querySelectorAll(".card");
 clickMe.forEach((card) => {
   card.addEventListener("click", function () {
     card.classList.toggle("is-flipped");

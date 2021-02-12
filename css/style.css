@@ -532,4 +532,10 @@ li {
 .up {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
+  transition: 0.4s border-color ease-in-out;
+}
+
+.up:hover,
+.up:focus {
+  border-color: var(--bright-color);
 }

@@ -166,7 +166,7 @@ li {
 
 /* Main Image */
 .header-home {
-  background: url(../img/dublin-dock.webp) no-repeat center center/cover;
+  background: url(../img/dublin-dock.jpg) no-repeat center center/cover;
   background-color: rgba(14, 14, 90, 0.6);
   background-blend-mode: overlay;
   color: var(--white-color);

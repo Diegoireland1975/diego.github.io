@@ -425,6 +425,11 @@ li {
 /* Cards */
 .card-wrapper {
   perspective: 600px;
+  /* added later */
+  -webkit-perspective: 600px;
+  -o-perspective: 600px;
+  -moz-perspective: 600px;
+  /*  */
   width: 321px;
   height: 230px;
   margin: 0 auto;
@@ -437,13 +442,27 @@ li {
   height: 100%;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: transform 1.5s ease;
+  /* added later */
   -webkit-transition: -webkit-transform 1.5s ease;
+  -o-transition: -o-transform 1.5s ease;
+  -moz-transition: -moz-transform 1.5s ease;
+  /*  */
   transform-style: preserve-3d;
+  /* added later */
+  -webkit-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  /*  */
 }
 
 .card.is-flipped {
   transform: rotateY(180deg);
+  /* added later */
   -ms-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  /*  */
 }
 
 .front {
@@ -451,6 +470,11 @@ li {
   height: 100%;
   width: 100%;
   backface-visibility: hidden;
+  /* added later */
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  /*  */
 }
 
 .back {
@@ -464,9 +488,9 @@ li {
   align-items: center;
   backface-visibility: hidden;
   /* rotating the back face of the card */
+  transform: rotateY(180deg);
   -ms-transform: rotateY(180deg); /* IE 9 */
   -webkit-transform: rotateY(180deg); /* Safari */
-  transform: rotateY(180deg);
   /* background: linear-gradient(
     45deg,
     var(--light-gray-color),

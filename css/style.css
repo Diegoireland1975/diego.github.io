@@ -213,7 +213,7 @@ li {
 
 /* About */
 #about {
-  padding: 2rem 3rem;
+  padding: 2rem 1.5rem;
   background: linear-gradient(45deg, var(--bg-color), var(--white-color));
   color: var(--dark-color);
 }
@@ -228,8 +228,10 @@ li {
   font-weight: 100;
   font-family: "Roboto Condensed", sans-serif;
   letter-spacing: 1px;
-  max-width: 400px;
+  max-width: 600px;
   margin: 0 auto;
+  line-height: 1.6;
+  text-align: left;
 }
 
 .resume {

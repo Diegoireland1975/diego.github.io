@@ -107,7 +107,7 @@
 
   .skills {
     grid-column: 1/4;
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
   }
 
@@ -122,6 +122,7 @@
   }
 }
 
+/* For Bigger Screen */
 @media (min-width: 1440px) {
   .about-text {
     max-width: 700px;
@@ -129,5 +130,9 @@
 
   #about .container {
     padding: 0;
+  }
+
+  .skills {
+    max-width: 900px;
   }
 }

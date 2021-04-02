@@ -1,395 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Personal Website of an Italian Front End Developer"
-    />
-    <title>Diego Portfolio Website</title>
-    <script src="https://kit.fontawesome.com/31e8741b4e.js"></script>
-    <link
-      rel="shortcut icon"
-      href="android-chrome-192x192.png"
-      type="image/x-icon"
-    />
-    <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon" />
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/mediaq.css" />
-  </head>
-  <body id="home">
-    <!-- Header -->
-    <header class="header-home">
-      <nav class="navbar">
-        <div class="container">
-          <img src="img/logo.png" alt="My Portfolio" id="logo" />
-          <ul class="nav">
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#work">Work</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <!-- Main Image -->
-      <div class="main-img">
-        <h1>
-          Diego The
-          <span
-            class="txt-type"
-            data-wait="3000"
-            data-words='["Developer", "Photographer", "Creator"]'
-          ></span>
-        </h1>
-
-        <h2>Welcome to My Website</h2>
-      </div>
-    </header>
-    <!-- About Page -->
-    <section id="about" class="text-center">
-      <h2 class="section-title">About</h2>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal Website of an Italian Front End Developer" />
+  <title>Diego Portfolio Website</title>
+  <script src="https://kit.fontawesome.com/31e8741b4e.js"></script>
+  <link rel="shortcut icon" href="android-chrome-192x192.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon" />
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/mediaq.css" />
+</head>
+<body id="home">
+  <!-- Header -->
+  <header class="header-home">
+    <nav class="navbar">
       <div class="container">
-        <div class="img-container">
-          <img
-            class="me"
-            src="img/me.jpg"
-            alt="photo of me in Galway Ireland"
-          />
-        </div>
-        <p class="about-text">
-          Hi, <span class="highlight">My name is Diego</span>, I'm Italian and
-          <span class="highlight">I love coding</span> and Photography. I have
-          been coding for 3 Years and it's something I really love.
-          <span class="highlight"
-            >I'm capable to transform a Mockup into a real Website with a nice
-            touch of animations</span
-          >. I studied at the
-          <span class="highlight">Dublin Institute of Design</span>, here in
-          Dublin (Ireland) where I live, and I got an Higher National
-          Certificate in Media Productions.<span class="line"></span>
-          Later I did several courses on
-          <span class="highlight">Udemy</span> and
-          <span class="highlight">Scrimba.</span> I have just finished the
-          <span class="highlight"
-            >Techdegree by Treehouse in Front End Development</span
-          >. I keep studying on the online platforms Skillshare and Udemy to
-          learn some advanced CSS Techniques, especially animations that I love,
-          and also improve my JS skills. <br />
-          In combination, I'm also studying WordPress Development and PHP. I
-          have also some more projects on Github where you can find the live
-          Netlify link for each repository.
-          <span class="highlight"
-            >I'm passionate about what I do and willing to learn something new
-            every day...</span
-          >
-        </p>
-        <a
-          class="resume btn"
-          href="diego-raffa-cv.pdf"
-          target="_blank"
-          download="CV"
-          >Download CV</a
-        >
-
-        <div class="skills">
-          <h3 class="heading-skills">Skills</h3>
-          <ul>
-            <li>
-              <img src="img/html.svg" alt="html icon" />
-              <span class="bar"><span class="html"></span></span>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <img src="img/css.svg" alt="css icon" />
-              <span class="bar"><span class="css"></span></span>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <img src="img/sass.svg" alt="sass icon" />
-              <span class="bar"><span class="sass"></span></span>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <img src="img/jquery.svg" alt="jquery icon" />
-              <span class="bar"><span class="jquery"></span></span>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <img src="img/javascript.svg" alt="javascript icon" />
-              <span class="bar"><span class="javascript"></span></span>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <img src="img/internet.svg" alt="responsive design icon" />
-              <span class="bar"><span class="responsive-design"></span></span>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <img src="img/git.svg" alt="git icon" />
-              <span class="bar"><span class="git"></span></span>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- Work -->
-    <section id="work" class="text-center">
-      <h2 class="section-title">Work</h2>
-      <div class="projects">
-        <div class="card-wrapper">
-          <div class="card">
-            <!-- front card -->
-            <div class="front">
-              <img
-                src="img/Project/NewsGrid-Latest-News.jpg"
-                alt="Project 1News
-                   Grid"
-              />
-            </div>
-            <!-- back card -->
-            <div class="back">
-              <h3>News Grid</h3>
-              <p>
-                Fictional News sporting page with working subscribe button. I
-                used the Grid System for the layout
-              </p>
-              <a
-                href="https://grid-sportnews.netlify.app/"
-                target="_blank"
-                class="btn btn-light"
-              >
-                <i class="fas fa-eye"></i> Project
-              </a>
-              <a
-                href="https://github.com/Diegoireland1975/newsgrid"
-                target="_blank"
-                class="btn btn-dark"
-              >
-                <i class="fab fa-github"></i>
-                Github
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="card-wrapper">
-          <div class="card">
-            <!-- front card -->
-            <div class="front">
-              <img src="img/Project/Online-Form.jpg" alt="online form" />
-            </div>
-            <!-- back card -->
-            <div class="back">
-              <h3>Online Form</h3>
-              <p>Responsive Online form with working submit button</p>
-              <a
-                href="https://onlineform.netlify.app/"
-                target="_blank"
-                class="btn btn-light"
-              >
-                <i class="fas fa-eye"></i> Project
-              </a>
-              <a
-                href="https://github.com/Diegoireland1975/Techdegree-Project-3-Online-form"
-                target="_blank"
-                class="btn btn-dark"
-              >
-                <i class="fab fa-github"></i>
-                Github
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="card-wrapper">
-          <div class="card">
-            <!-- front card -->
-            <div class="front">
-              <img
-                src="img/Project/diego-photography.jpg"
-                alt="Picture of the Website of some of my photos"
-              />
-            </div>
-            <!-- back card -->
-            <div class="back">
-              <h3>Diego Photography</h3>
-              <p>
-                Website of some of my photos during my travels. Very simple
-                layout, I used Flexbox and lightbox to animate the photos on
-                click. I also add an animation to the main header, every page
-                reload.
-              </p>
-              <a
-                href="https://diego-photography.netlify.app/"
-                target="_blank"
-                class="btn btn-light"
-              >
-                <i class="fas fa-eye"></i> Project
-              </a>
-              <a
-                href="https://github.com/Diegoireland1975/Diego-Photography.git"
-                target="_blank"
-                class="btn btn-dark"
-              >
-                <i class="fab fa-github"></i> Github
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="card-wrapper">
-          <div class="card">
-            <!-- front card -->
-            <div class="front">
-              <img
-                src="img/Project/Diego-Raffa-website.jpg"
-                alt="Sample of a portfolio website"
-              />
-            </div>
-            <!-- back card -->
-            <div class="back">
-              <h3>Sample of Portfolio website</h3>
-              <p>
-                This was a sample of a Portfolio with fictional projects and
-                testimonial. I used Sass and Css Grid for the Layout. I also
-                used pure vanilla JS for the typewriter.
-              </p>
-              <a
-                href="https://diego-portfoliosample.netlify.app/"
-                target="_blank"
-                class="btn btn-light"
-              >
-                <i class="fas fa-eye"></i> Project
-              </a>
-              <a
-                href="https://github.com/Diegoireland1975/portfolio_website"
-                target="_blank"
-                class="btn btn-dark"
-              >
-                <i class="fab fa-github"></i>
-                Github
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="card-wrapper">
-          <div class="card">
-            <!-- front card -->
-            <div class="front">
-              <img
-                src="img/Project/Yazoo-Tribute-site2.jpg"
-                alt="Yazoo Tribute Website"
-              />
-            </div>
-            <!-- back card -->
-            <div class="back">
-              <h3>Yazoo Tribute site</h3>
-              <p>
-                This is a small Tribute Website for the English duo from the
-                80's Yazoo. I used Flexbox for the layout and lightbox for the
-                gallery images. I used the mobile first approach.
-              </p>
-              <a
-                href="https://yazoo-tribute.netlify.app/"
-                target="_blank"
-                class="btn btn-light"
-              >
-                <i class="fas fa-eye"></i> Project
-              </a>
-              <a
-                href="https://github.com/Diegoireland1975/YazooTribute"
-                target="_blank"
-                class="btn btn-dark"
-              >
-                <i class="fab fa-github"></i> Github
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="card-wrapper">
-          <div class="card">
-            <!-- front card -->
-            <div class="front">
-              <img
-                src="img/Project/EdgeLedger2.jpg"
-                alt="Edge Ledger a fictional financial company"
-              />
-            </div>
-            <!-- back card -->
-            <div class="back">
-              <h3>Edge Ledger</h3>
-              <p>
-                This is a Website for a fictional Financial Company. I used JS
-                for the smooth scrolling and Flexbox for the Layout.
-              </p>
-              <a
-                href="https://edgeledger-future.netlify.app/"
-                target="_blank"
-                class="btn btn-light"
-              >
-                <i class="fas fa-eye"></i> Project
-              </a>
-              <a
-                href="https://github.com/Diegoireland1975/Edge-Ledger"
-                target="_blank"
-                class="btn btn-dark"
-              >
-                <i class="fab fa-github"></i> Github
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- close project -->
-    </section>
-    <!-- footer -->
-    <footer id="main-footer">
-      <div class="container">
-        <h3 class>Get in Touch</h3>
-        <ul class="footer-nav" id="contact">
+        <img src="img/logo.png" alt="My Portfolio" id="logo" />
+        <ul class="nav">
           <li>
-            <a href="mailto:diego170975@gmail.com" target="_blank"
-              ><img src="img/gmail.svg" alt="gmail svg icon"
-            /></a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="https://diegoraffa.wordpress.com" target="_blank"
-              ><img src="img/blog.svg" alt="blog svg icon"
-            /></a>
+            <a href="#work">Work</a>
           </li>
           <li>
-            <a href="https://github.com/Diegoireland1975" target="_blank"
-              ><img src="img/logo.svg" alt="github svg icon"
-            /></a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/diego-raffa/" target="_blank"
-              ><img src="img/linkedin.svg" alt="linkedin svg icon"
-            /></a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
-        <p>Copyright &copy; 2020. All rights Reserved</p>
-        <a href="#home"><i class="arrow up"></i></a>
       </div>
-    </footer>
-    <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+    </nav>
+    <!-- Main Image -->
+    <div class="main-img">
+      <h1>
+        Diego The
+        <span class="txt-type" data-wait="3000" data-words='["Developer", "Photographer", "Creator"]'></span>
+      </h1>
+
+      <h2>Welcome to My Website</h2>
+    </div>
+  </header>
+  <!-- About Page -->
+  <section id="about" class="text-center">
+    <h2 class="section-title">About</h2>
+    <div class="container">
+      <div class="img-container">
+        <img class="me" src="img/me.jpg" alt="photo of me in Galway Ireland" />
+      </div>
+      <p class="about-text">
+        Hi, <span class="highlight">My name is Diego</span>, I'm Italian and
+        <span class="highlight">I love coding</span> and Photography. I have
+        been coding for 3 Years and it's something I really love.
+        <span class="highlight">I'm capable to transform a Mockup into a real Website with a nice
+          touch of animations</span>. I studied at the
+        <span class="highlight">Dublin Institute of Design</span>, here in
+        Dublin (Ireland) where I live, and I got an Higher National
+        Certificate in Media Productions.<span class="line"></span>
+        Later I did several courses on
+        <span class="highlight">Udemy</span> and
+        <span class="highlight">Scrimba.</span> I have just finished the
+        <span class="highlight">Techdegree by Treehouse in Front End Development</span>. I keep studying on the online
+        platforms Skillshare and Udemy to
+        learn some advanced CSS Techniques, especially animations that I love,
+        and also improve my JS skills. <br />
+        In combination, I'm also studying WordPress Development and PHP. I
+        have also some more projects on Github where you can find the live
+        Netlify link for each repository.
+        <span class="highlight">I'm passionate about what I do and willing to learn something new
+          every day...</span>
+      </p>
+      <a class="resume btn" href="diego-raffa-cv.pdf" target="_blank" download="CV">Download CV</a>
+
+      <div class="skills">
+        <h3 class="heading-skills">Skills</h3>
+        <ul>
+          <li>
+            <img src="img/html.svg" alt="html icon" />
+            <span class="bar"><span class="html"></span></span>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img src="img/css.svg" alt="css icon" />
+            <span class="bar"><span class="css"></span></span>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img src="img/sass.svg" alt="sass icon" />
+            <span class="bar"><span class="sass"></span></span>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img src="img/jquery.svg" alt="jquery icon" />
+            <span class="bar"><span class="jquery"></span></span>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img src="img/javascript.svg" alt="javascript icon" />
+            <span class="bar"><span class="javascript"></span></span>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img src="img/internet.svg" alt="responsive design icon" />
+            <span class="bar"><span class="responsive-design"></span></span>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <img src="img/git.svg" alt="git icon" />
+            <span class="bar"><span class="git"></span></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section id="work" class="text-center">
+    <h2 class="section-title">Work</h2>
+    <div class="projects">
+      <div class="card-wrapper">
+        <div class="card">
+          <!-- front card -->
+          <div class="front">
+            <img src="img/Project/NewsGrid-Latest-News.jpg" alt="Project 1News
+                   Grid" />
+          </div>
+          <!-- back card -->
+          <div class="back">
+            <h3>News Grid</h3>
+            <p>
+              Fictional News sporting page with working subscribe button. I
+              used the Grid System for the layout
+            </p>
+            <a href="https://grid-sportnews.netlify.app/" target="_blank" class="btn btn-light">
+              <i class="fas fa-eye"></i> Project
+            </a>
+            <a href="https://github.com/Diegoireland1975/newsgrid" target="_blank" class="btn btn-dark">
+              <i class="fab fa-github"></i>
+              Github
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-wrapper">
+        <div class="card">
+          <!-- front card -->
+          <div class="front">
+            <img src="img/Project/netflix-clone.jpg" alt="Netflix Clone" />
+          </div>
+          <!-- back card -->
+          <div class="back">
+            <h3>Netflix Clone</h3>
+            <p>This is a clone of the famous Netflix Page. I used Vanilla JS for the
+              switch between the 3 tabs and for the collapsible questions box at the bottom. I also insert the
+              animated videos like in the original Website</p>
+            <a href="https://netflix-films.netlify.app/" target="_blank" class="btn btn-light">
+              <i class="fas fa-eye"></i> Project
+            </a>
+            <a href="https://github.com/Diegoireland1975/Netflix-Clone.git" target="_blank" class="btn btn-dark">
+              <i class="fab fa-github"></i>
+              Github
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-wrapper">
+        <div class="card">
+          <!-- front card -->
+          <div class="front">
+            <img src="img/Project/diego-photography.jpg" alt="Picture of the Website of some of my photos" />
+          </div>
+          <!-- back card -->
+          <div class="back">
+            <h3>Diego Photography</h3>
+            <p>
+              Website of some of my photos during my travels. Very simple
+              layout, I used Flexbox and lightbox to animate the photos on
+              click. I also add an animation to the main header, every page
+              reload.
+            </p>
+            <a href="https://diego-photography.netlify.app/" target="_blank" class="btn btn-light">
+              <i class="fas fa-eye"></i> Project
+            </a>
+            <a href="https://github.com/Diegoireland1975/Diego-Photography.git" target="_blank" class="btn btn-dark">
+              <i class="fab fa-github"></i> Github
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-wrapper">
+        <div class="card">
+          <!-- front card -->
+          <div class="front">
+            <img src="img/Project/Diego-Raffa-website.jpg" alt="Sample of a portfolio website" />
+          </div>
+          <!-- back card -->
+          <div class="back">
+            <h3>Sample of Portfolio website</h3>
+            <p>
+              This was a sample of a Portfolio with fictional projects and
+              testimonial. I used Sass and Css Grid for the Layout. I also
+              used pure vanilla JS for the typewriter.
+            </p>
+            <a href="https://diego-portfoliosample.netlify.app/" target="_blank" class="btn btn-light">
+              <i class="fas fa-eye"></i> Project
+            </a>
+            <a href="https://github.com/Diegoireland1975/portfolio_website" target="_blank" class="btn btn-dark">
+              <i class="fab fa-github"></i>
+              Github
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-wrapper">
+        <div class="card">
+          <!-- front card -->
+          <div class="front">
+            <img src="img/Project/Yazoo-Tribute-site2.jpg" alt="Yazoo Tribute Website" />
+          </div>
+          <!-- back card -->
+          <div class="back">
+            <h3>Yazoo Tribute site</h3>
+            <p>
+              This is a small Tribute Website for the English duo from the
+              80's Yazoo. I used Flexbox for the layout and lightbox for the
+              gallery images. I used the mobile first approach.
+            </p>
+            <a href="https://yazoo-tribute.netlify.app/" target="_blank" class="btn btn-light">
+              <i class="fas fa-eye"></i> Project
+            </a>
+            <a href="https://github.com/Diegoireland1975/YazooTribute" target="_blank" class="btn btn-dark">
+              <i class="fab fa-github"></i> Github
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-wrapper">
+        <div class="card">
+          <!-- front card -->
+          <div class="front">
+            <img src="img/Project/EdgeLedger2.jpg" alt="Edge Ledger a fictional financial company" />
+          </div>
+          <!-- back card -->
+          <div class="back">
+            <h3>Edge Ledger</h3>
+            <p>
+              This is a Website for a fictional Financial Company. I used JS
+              for the smooth scrolling and Flexbox for the Layout.
+            </p>
+            <a href="https://edgeledger-future.netlify.app/" target="_blank" class="btn btn-light">
+              <i class="fas fa-eye"></i> Project
+            </a>
+            <a href="https://github.com/Diegoireland1975/Edge-Ledger" target="_blank" class="btn btn-dark">
+              <i class="fab fa-github"></i> Github
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- close project -->
+  </section>
+  <!-- footer -->
+  <footer id="main-footer">
+    <div class="container">
+      <h3 class>Get in Touch</h3>
+      <ul class="footer-nav" id="contact">
+        <li>
+          <a href="mailto:diego170975@gmail.com" target="_blank"><img src="img/gmail.svg" alt="gmail svg icon" /></a>
+        </li>
+        <li>
+          <a href="https://diegoraffa.wordpress.com" target="_blank"><img src="img/blog.svg" alt="blog svg icon" /></a>
+        </li>
+        <li>
+          <a href="https://github.com/Diegoireland1975" target="_blank"><img src="img/logo.svg"
+              alt="github svg icon" /></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/diego-raffa/" target="_blank"><img src="img/linkedin.svg"
+              alt="linkedin svg icon" /></a>
+        </li>
+      </ul>
+      <p>Copyright &copy; 2020. All rights Reserved</p>
+      <a href="#home"><i class="arrow up"></i></a>
+    </div>
+  </footer>
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
 </html>

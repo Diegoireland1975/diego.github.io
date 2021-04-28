@@ -7,8 +7,8 @@ The main problem for me was to make the cards flipping. At the beginning just on
 Also to make the two faces cards was a bit challenging. I had to do a lot of Google Research. As my teacher used to say:" If you don't know something Google it!
 The main photo it's mine I took it at the Dublin Docs by Night.
 For the typewriter I had to follow a tutorial many times, because I still have to improve my JS.
-Anyway The idea to implement a cursor waas mine.
+Anyway The idea to implement a cursor was mine.
 I inserted it with a pseudo element and make it blink with a simple animation of the opacity.
 Also I applied a delay of 1 sec to make the cursor blinking, only after the typewriting is stopping
 Technologies Used:
-Vanilla JS for the typewriter, Flexbox and Grid for the Layout, Mobile first approach
+hTML5 CSS3 Vanilla JS for the typewriter, Flexbox and Grid for the Layout, Mobile first approach

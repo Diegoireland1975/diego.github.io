@@ -213,9 +213,10 @@ li {
 
 /* About */
 #about {
-  padding: 2rem 1.5rem;
+  padding: 2rem 1.5rem 6rem;
   background: linear-gradient(45deg, var(--bg-color), var(--white-color));
   color: var(--dark-color);
+  clip-path: polygon(0 0, 100% 0, 100% 97%, 0 100%);
 }
 
 #about .container {
@@ -401,7 +402,7 @@ li {
 /* work projects */
 #work {
   padding: 1rem 5rem;
-  background: linear-gradient(45deg, var(--white-color), var(--bg-color));
+  /* background: linear-gradient(45deg, var(--white-color), var(--bg-color)); */
   margin: 0 auto;
 }
 
@@ -498,7 +499,7 @@ li {
     var(--light-gray-color),
     var(--white-color)
   ); */
-  background: linear-gradient(45deg, lightblue, var(--white-color));
+  background: linear-gradient(to top, lightblue, var(--blue-color));
 }
 
 .back h3 {
@@ -506,7 +507,6 @@ li {
 }
 
 .back p {
-  color: var(--light-bg-color);
   font-size: 0.8rem;
   font-weight: 400;
   justify-self: center;
@@ -514,6 +514,10 @@ li {
   margin-bottom: 0.5rem;
 }
 
+.back h3,
+.back p {
+  color: var(--white-color);
+}
 /* Footer */
 #main-footer .container {
   display: flex;

@@ -317,12 +317,12 @@ li {
 }
 
 .jquery {
-  width: 50%;
+  width: 60%;
   animation: jquery 2s ease-in;
 }
 
 .javascript {
-  width: 50%;
+  width: 60%;
   animation: javascript 2s ease-in;
 }
 
@@ -368,7 +368,7 @@ li {
     width: 0%;
   }
   100% {
-    width: 50%;
+    width: 60%;
   }
 }
 
@@ -377,7 +377,7 @@ li {
     width: 0%;
   }
   100% {
-    width: 50%;
+    width: 60%;
   }
 }
 

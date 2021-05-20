@@ -4,6 +4,7 @@
 :root {
   --bg-color: rgb(66, 66, 238);
   --with-container: 1200px;
+  --with-big-screen-container: 2000px;
   --dark-color: #000;
   --white-color: #fff;
   --light-gray-color: #777;
@@ -32,7 +33,7 @@ body {
 .container {
   max-width: var(--with-container);
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 2rem;
   overflow: hidden;
 }
 
@@ -108,10 +109,6 @@ li {
   align-items: flex-start;
 }
 
-.navbar {
-  padding: 1rem;
-}
-
 .navbar ul {
   text-transform: uppercase;
 }
@@ -183,7 +180,7 @@ li {
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 
 /* Cursor */
@@ -401,7 +398,7 @@ li {
 
 /* work projects */
 #work {
-  padding: 1rem 5rem;
+  padding: 1rem 2rem;
   /* background: linear-gradient(45deg, var(--white-color), var(--bg-color)); */
   margin: 0 auto;
 }
@@ -435,7 +432,7 @@ li {
   /*  */
   width: 321px;
   height: 230px;
-  margin: 0 auto;
+  margin: 1rem auto;
 }
 
 .card {

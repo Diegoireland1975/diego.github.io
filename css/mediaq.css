@@ -1,4 +1,10 @@
 /* mediaqueries */
+/* for iphone5 */
+@media (max-width: 320px) {
+  .main-img h1 {
+    font-size: 1.4rem;
+  }
+}
 @media (min-width: 768px) {
   .navbar .container {
     flex-direction: row;
@@ -33,7 +39,7 @@
   }
 
   .main-img {
-    padding: 0 3rem;
+    padding: 0 2rem;
   }
 
   .main-img h1 {
@@ -100,6 +106,9 @@
 }
 
 @media (min-width: 1024px) {
+  .main-img {
+    padding: 0 2rem;
+  }
   .main-img h1 {
     font-size: 5rem;
   }
@@ -120,6 +129,7 @@
 
   .projects {
     grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
     min-width: 900px;
     margin: 0 auto;
   }
@@ -131,6 +141,15 @@
 
 /* For Bigger Screen */
 @media (min-width: 1440px) {
+  .container {
+    max-width: var(--with-big-screen-container);
+    padding: 0 3rem;
+  }
+
+  .main-img {
+    max-width: 2000px;
+    margin: 0 auto;
+  }
   .about-text {
     max-width: 700px;
   }
@@ -141,5 +160,10 @@
 
   .skills {
     max-width: 900px;
+  }
+
+  #work {
+    padding: 3rem 0;
+    max-width: 2000px;
   }
 }

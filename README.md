@@ -1,5 +1,6 @@
 # diego.github.io
-This is My Portfolio Website with 6 Projects inside at the moment.
+
+This is My Portfolio Website with 9 Projects inside at the moment.
 Description
 For my Portfolio i wanted to create a really simple and clean layout.
 I think most of the time simplicity it's better.

@@ -77,3 +77,9 @@ clickMe.forEach((card) => {
     card.classList.toggle("is-flipped");
   });
 });
+
+// UPDATE YEAR IN THE FOOTER
+function addYears(date, years) {
+  date.setFullYear(date.getFullYear() + years);
+  return date;
+}

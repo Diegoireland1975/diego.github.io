@@ -82,8 +82,8 @@ clickMe.forEach((card) => {
 // ##############///////
 
 // Get a reference to the HTML element where you want to display the current year.
-const yearSpan = document.getElementById("currentYear");
+const yearSpan = document.querySelector("#currentYear");
 // Create a new Date object to get the current year.
-const currentYear = new Date().getFullYear;
+const currentYear = new Date().getFullYear();
 // Update the inner text of the HTML element with the current year.
 yearSpan.innerText = currentYear;

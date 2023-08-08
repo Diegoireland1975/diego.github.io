@@ -77,9 +77,13 @@ clickMe.forEach((card) => {
     card.classList.toggle("is-flipped");
   });
 });
+// ##############///////
+// UPDATE COPYRIGHT YEAR IN THE FOOTER
+// ##############///////
 
-// UPDATE YEAR IN THE FOOTER
-function addYears(date, years) {
-  date.setFullYear(date.getFullYear() + years);
-  return date;
-}
+// Get a reference to the HTML element where you want to display the current year.
+const yearSpan = document.getElementById("currentYear");
+// Create a new Date object to get the current year.
+const currentYear = new Date().getFullYear;
+// Update the inner text of the HTML element with the current year.
+yearSpan.innerText = currentYear;

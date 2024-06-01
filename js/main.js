@@ -77,9 +77,9 @@ clickMe.forEach((card) => {
     card.classList.toggle("is-flipped");
   });
 });
-// ##############///////
+// ###########################///////
 // UPDATE COPYRIGHT YEAR IN THE FOOTER
-// ##############///////
+// #############################///////
 
 // Get a reference to the HTML element where you want to display the current year.
 const yearSpan = document.querySelector("#currentYear");

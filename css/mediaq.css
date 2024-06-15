@@ -144,7 +144,7 @@
 /* For Bigger Screen */
 @media (min-width: 1440px) {
   .container {
-    max-width: var(--with-big-screen-container);
+    max-width: var(--width-big-screen-container);
     padding: 0 3rem;
   }
 

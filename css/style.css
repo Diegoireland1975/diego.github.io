@@ -3,8 +3,8 @@
 
 :root {
   --bg-color: rgb(66, 66, 238);
-  --with-container: 1200px;
-  --with-big-screen-container: 2000px;
+  --width-container: 1200px;
+  --width-big-screen-container: 2000px;
   --dark-color: #000;
   --white-color: #fff;
   --light-gray-color: #777;
@@ -31,7 +31,7 @@ body {
 }
 
 .container {
-  max-width: var(--with-container);
+  max-width: var(--width-container);
   margin: 0 auto;
   padding: 0 2rem;
   overflow: hidden;

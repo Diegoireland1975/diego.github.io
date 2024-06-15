@@ -204,7 +204,7 @@ li {
   }
 }
 
-/* About */
+/* About me */
 .about-me {
   padding: 2rem 1.5rem 6rem;
   background: linear-gradient(45deg, var(--bg-color), var(--white-color));
@@ -393,13 +393,13 @@ li {
 }
 
 /* work projects */
-#work {
+.work {
   padding: 1rem 2rem;
   /* background: linear-gradient(45deg, var(--white-color), var(--bg-color)); */
   margin: 0 auto;
 }
 
-.projects {
+.work .projects {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.8rem;
@@ -512,14 +512,14 @@ li {
   color: var(--white-color);
 }
 /* Footer */
-#main-footer .container {
+.main-footer .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-#main-footer {
+.main-footer {
   padding: 1rem 0;
   align-items: center;
   background: linear-gradient(to right, var(--dark-color), var(--bg-color));

@@ -159,7 +159,7 @@ li {
 .header-home h2 {
   font-size: 1.3rem;
   color: var(--white-color);
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
 }
 
 /* Main Image */
@@ -228,29 +228,29 @@ li {
   text-align: left;
 }
 
-.resume {
+.about-me .resume {
   font-weight: 700;
   background: var(--white-color);
   margin: 2rem 0;
 }
 
-.resume:hover {
+.about-me .resume:hover {
   background: var(--bright-color);
   color: var(--bg-color);
 }
 
-.img-container {
+.about-me .img-container {
   overflow: hidden;
 }
 
-.me {
+.about-me .me {
   margin: 2.5rem 0;
   transition: scale, brightness, 0.5s ease-in-out;
   cursor: pointer;
 }
 
-.me:hover,
-.me:active {
+.about-me .me:hover,
+.about-me .me:active {
   transform: scale(1.2);
   filter: brightness(85%);
 }

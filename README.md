@@ -1,6 +1,7 @@
 # diego.github.io
 
 This is My Portfolio Website with 9 Projects inside at the moment.
+
 Description
 For my Portfolio i wanted to create a really simple and clean layout.
 I think most of the time simplicity it's better.
@@ -11,5 +12,6 @@ For the typewriter I had to follow a tutorial many times, because I still have t
 Anyway The idea to implement a cursor was mine.
 I inserted it with a pseudo element and make it blink with a simple animation of the opacity.
 Also I applied a delay of 1 sec to make the cursor blinking, only after the typewriting is stopping
+
 Technologies Used:
 hTML5 CSS3 Vanilla JS for the typewriter, Flexbox and Grid for the Layout, Mobile first approach

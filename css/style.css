@@ -190,10 +190,10 @@ li {
 
 .txt-type > span::after {
   content: "";
-  right: -0.5rem;
+  position: absolute;
+  right: -1rem;
   width: 1px;
   height: 100%;
-  position: absolute;
   border-right: 0.2rem solid var(--white-color);
   animation: blink 0.5s 1s infinite ease;
 }

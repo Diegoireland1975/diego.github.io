@@ -267,19 +267,19 @@ li {
   color: var(--white-color);
 }
 
+.heading-skills {
+  margin-bottom: 1.5rem;
+  color: var(--blue-color);
+}
+
 .skills li {
-  margin: 1rem 0;
+  margin: 1.5rem 0;
 }
 
 .skills img {
   padding: 0.5rem 0 1rem;
   width: 2rem;
   margin: 0 auto;
-}
-
-.heading-skills {
-  margin-bottom: 1.5rem;
-  color: var(--blue-color);
 }
 
 .bar {
@@ -313,11 +313,6 @@ li {
   animation: sass 2s ease-in;
 }
 
-.jquery {
-  width: 60%;
-  animation: jquery 2s ease-in;
-}
-
 .javascript {
   width: 60%;
   animation: javascript 2s ease-in;
@@ -331,6 +326,11 @@ li {
 .git {
   width: 70%;
   animation: git 2s ease-in;
+}
+
+.github {
+  width: 70%;
+  animation: github 2s ease-in;
 }
 
 @keyframes html {
@@ -352,15 +352,6 @@ li {
 }
 
 @keyframes sass {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 60%;
-  }
-}
-
-@keyframes jquery {
   0% {
     width: 0%;
   }
@@ -392,7 +383,16 @@ li {
     width: 0%;
   }
   100% {
-    width: 60%;
+    width: 70%;
+  }
+}
+
+@keyframes github {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
   }
 }
 

@@ -1,7 +1,7 @@
 /* mediaqueries */
 /* for iphone5 */
 @media (max-width: 320px) {
-  .main-img h1 {
+  .header-home h1 {
     font-size: 1.4rem;
   }
 }
@@ -59,7 +59,7 @@
   .about-me .container {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     align-items: start;
-    gap: 3rem;
+    gap: 1rem;
     /* padding: 0 3rem; */
   }
 
@@ -146,7 +146,6 @@
 @media (min-width: 1440px) {
   .container {
     max-width: var(--width-big-screen-container);
-    padding: 0 3rem;
   }
 
   .main-img {
@@ -163,6 +162,6 @@
 
   .work {
     padding: 3rem 0;
-    max-width: 2000px;
+    max-width: 1800px;
   }
 }

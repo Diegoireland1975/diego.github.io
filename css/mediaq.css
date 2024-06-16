@@ -57,9 +57,9 @@
   }
 
   .about-me .container {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     align-items: start;
-    gap: 1rem;
+    gap: 1.5rem;
     /* padding: 0 3rem; */
   }
 
@@ -157,11 +157,11 @@
   }
 
   .skills {
-    max-width: 900px;
+    max-width: 1200px;
   }
 
   .work {
     padding: 3rem 0;
-    max-width: 1800px;
+    max-width: 2000px;
   }
 }

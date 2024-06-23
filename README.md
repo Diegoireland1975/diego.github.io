@@ -1,8 +1,11 @@
-# diego.github.io
+# Portgolio Website
+
+## Overview
 
 This is My Portfolio Website with 9 Projects inside at the moment.
 
-Description
+## Description
+
 For my Portfolio i wanted to create a really simple and clean layout.
 I think most of the time simplicity it's better.
 The main problem for me was to make the cards flipping. At the beginning just one was working. I solved with a for each loop.
@@ -13,5 +16,22 @@ Anyway The idea to implement a cursor was mine.
 I inserted it with a pseudo element and make it blink with a simple animation of the opacity.
 Also I applied a delay of 1 sec to make the cursor blinking, only after the typewriting is stopping
 
-Technologies Used:
-hTML5 CSS3 Vanilla JS for the typewriter, Flexbox and Grid for the Layout, Mobile first approach
+# Technologies Used:
+
+- HTML5
+- CSS3
+- Vanilla JS
+- Flexbox and Grid
+- Mobile first approach
+
+**Mobile view**
+
+<img src="/mobile.png" align="center" width="200">
+
+**Tablet view**
+
+<img src="/tablet.png" align="center" width="300">
+
+**Desktop view**
+
+<img src="/desktop.png" align="center" width="450">

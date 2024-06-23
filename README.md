@@ -26,12 +26,12 @@ Also I applied a delay of 1 sec to make the cursor blinking, only after the type
 
 **Mobile view**
 
-<img src="/mobile.png" align="center" width="200">
+<img src="/img/screenshot-read.me/mobile.png" align="center" width="200">
 
 **Tablet view**
 
-<img src="/tablet.png" align="center" width="300">
+<img src="/img/screenshot-read.me/tablet.png" align="center" width="300">
 
 **Desktop view**
 
-<img src="/desktop.png" align="center" width="450">
+<img src="/img/screenshot-read.me/desktop.png" align="center" width="450">
